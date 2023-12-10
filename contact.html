@@ -1,0 +1,71 @@
+     <!-- Name Amarjot Singh
+    Student number - 7755622 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="CSS/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title> MAHARAJA RANJIT SINGH </title>
+</head>
+<body>
+  <header class="1header">
+      <h1> Maharaja Ranjit Singh </h1>  
+  </header>
+  <nav class="structural">
+    <ul>
+      <li> <a href="index.html"> Home </a></li>
+      <li> <a href=""> Media </a>
+      <ul> 
+        <li> <a href="gallery.html"> Photos </a></li>
+        <li> <a href="media.html"> Videos </a>
+      </ul> </li>
+      <li> <a href="contact.html"> Contact us </a></li>
+    </ul>
+  </nav>
+<main>
+    <form>
+      <label for="name">First Name</label>
+      <input type="text" id="name" placeholder="Your First Name" required>
+      <br>
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" placeholder="Your Last Name" required>
+      <br>
+      <label for="phone">Contact Number </label>
+      <input type="tel" name="phone" id="phone" pattern="\d{3}[\-]\d{3}[\-]\d{4}" title="519-555-5555" placeholder="519-555-5555" required>
+      <br>
+      <label for="dob">When is your date of birth?</label>
+      <input type="date" id="dob" name="dob" min="1967-01-01" max="2023-11-09" required>
+      <br>
+      <label for="province">Province</label required>
+      <select name="province" id="province">
+          <option value="Select" >Select</option>
+          <option value="ontario">Ontario</option>
+          <option value="Quebec">Quebec</option>
+          <option value="Winnipeg">Winnipeg</option>
+          <option value="Other">Other</option>
+      </select>
+      <br>
+      <label for="subject">Subject</label required>
+      <textarea name="subject" id="subject" cols="30" rows="2" placeholder="Subject"></textarea>
+      <br>
+            <input type="reset" name="clear" id="clear" value="Clear Form" class="button">
+            <input type="submit" name="submit" id="submit" value="Submit" class="button">
+      
+  </form>
+</main>        
+        <aside>
+        <h2> Additional Information</h2>
+        <ul> 
+            <li> <a href="https://en.wikipedia.org/wiki/Ranjit_Singh" target="_blank"> WIKIPEDIA LINK</a></li>
+            <li> <a href= "https://www.indiatoday.in/education-today/gk-current-affairs/story/lion-of-punjab-maharaja-ranjit-singh-sikh-empire-golden-temple-1387463-2018-11-13" target="_blank"> 18 INTERESTING FACTS </a> </li>
+        </ul>
+      </aside>
+<footer>
+    <p>&copy;Amarjot Singh 2023</p>
+</footer>
+</body>
+
+</html>
